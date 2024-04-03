@@ -12,7 +12,7 @@ function App() {
   };
 
   const convert = () => {
-    axios.post('http://localhost:8080/convert', markdown, {
+    axios.post('http://localhost:8080/markdown/convert', markdown, {
          headers: {
            'Content-Type': 'text/plain'
          }
